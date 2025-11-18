@@ -30,3 +30,18 @@ if __name__ == "__main__":
     # Mostrando como ficou o histórico
     print("\nHistórico atualizado:")
     print(historico)
+def registrar_medicao(linha):
+    partes = linha.split(",")
+    nome = partes[0].strip()
+    temperatura = float(partes[1].strip())
+    status = partes[2].strip()
+
+    for m in maquinas:
+        if m[0] == nome:
+            m[1] = status
+            m[2] = temperatura
+            # desafio: se status for "em manutenção", atualizar data
+            break
+
+registrar_medicao("Torno CNC, 78.5, operando")
+maquinas
