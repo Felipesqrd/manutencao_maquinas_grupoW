@@ -12,3 +12,15 @@ historico = {
     "Torno CNC": ["Troca de óleo - 01/11/2025", "Limpeza - 03/11/2025"],
     "Prensa Hidráulica": ["Troca de mangueira - 02/11/2025"]
 }
+# --- FUNÇÕES ---
+# (Célula 4)
+def adicionar_manutencao(nome_maquina, descricao):
+    if nome_maquina not in historico:
+        historico[nome_maquina] = []
+    historico[nome_maquina].append(descricao)
+    print(f"Manutenção registrada para {nome_maquina}")
+# --- EXECUÇÃO / TESTE ---
+if __name__ == "__main__":
+    print("--- Testando o Sistema ---")
+    adicionar_manutencao("Compressor de Ar", "Troca de filtro - HOJE")
+    print(historico) # Para ver se apareceu lá
