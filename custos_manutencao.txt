@@ -1,0 +1,7 @@
+RELATÓRIO DE CUSTOS DE MANUTENÇÃO
+
+- Fresadora: R$ 120.00
+- Torno Convencional: R$ 300.00
+- Milling Machine: R$ 60.00
+
+TOTAL GERAL: R$ 480.00

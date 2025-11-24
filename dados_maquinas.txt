@@ -1,0 +1,5 @@
+Fresadora;em manutenção;70.0;24/11/2025
+Torno Convencional;parada;25.5;02/11/2025
+Milling Machine;operando;60.0;06/11/2025
+Serra de Fita;parada;18.0;03/11/2025
+Torno CNC;operando;78.5;01/11/2025

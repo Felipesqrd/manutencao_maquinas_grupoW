@@ -1,0 +1,14 @@
+RELATÓRIO DE MÁQUINAS
+
+Máquina mais quente: Torno CNC (78.5 °C)
+
+Máquinas em manutenção ou paradas:
+- Fresadora (última manutenção: 24/11/2025)
+- Torno Convencional (última manutenção: 02/11/2025)
+- Serra de Fita (última manutenção: 03/11/2025)
+
+Quantidade de manutenções registradas:
+- Fresadora: 3 registro(s)
+- Torno Convencional: 3 registro(s)
+- Milling Machine: 3 registro(s)
+- Serra de Fita: 2 registro(s)
