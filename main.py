@@ -1,10 +1,7 @@
-# ==========================
-# PROJETO COMPLETO COM MENU
-# ==========================
 
 from datetime import datetime
 
-# ---------- LISTA DE MÁQUINAS ----------
+# LISTA DE MÁQUINAS
 maquinas = [
     ["Fresadora", "operando", 65.0, "04/11/2025"],
     ["Torno Convencional", "parada", 25.5, "02/11/2025"],
@@ -13,7 +10,7 @@ maquinas = [
     ["Torno CNC", "parada", 20.0, "01/11/2025"]
 ]
 
-# ---------- DICIONÁRIO DE HISTÓRICO ----------
+# HISTÓRICO
 historico_manutencao = {
     "Fresadora": ["Troca de correia - 20/10/2025", "Lubrificação geral - 01/11/2025"],
     "Torno Convencional": ["Ajuste de folga da bucha - 15/10/2025", "Troca de óleo - 30/10/2025"],
@@ -21,7 +18,7 @@ historico_manutencao = {
     "Serra de Fita": ["Troca da lâmina - 10/10/2025", "Aperto da estrutura - 01/11/2025"]
 }
 
-# ---------- DICIONÁRIO DE CUSTOS ----------
+# CUSTOS
 custos = {
     "troca de óleo": 120.0,
     "limpeza": 60.0,
@@ -30,9 +27,7 @@ custos = {
 
 custos_por_maquina = {}
 
-# ==========================
 # FUNÇÕES DO SISTEMA
-# ==========================
 
 def registrar_medicao(linha):
     partes = linha.split(",")
@@ -133,9 +128,8 @@ def mostrar_relatorio(nome_arquivo):
     except FileNotFoundError:
         print("Arquivo não encontrado.")
 
-# ==========================
 # MENU PRINCIPAL
-# ==========================
+
 def main():
     while True:
         print("\n=== Sistema de Manutenção de Máquinas ===")
@@ -176,8 +170,7 @@ def main():
         else:
             print("Opção inválida! Tente novamente.")
 
-# ==========================
+
 # EXECUTAR O MENU
-# ==========================
 if __name__ == "__main__":
     main()
